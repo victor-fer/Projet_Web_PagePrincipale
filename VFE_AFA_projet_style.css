@@ -1,0 +1,107 @@
+body {
+   background-color:#306090; /* c'est la couleur de fond du site */
+   color:#ffffff; /* c'est la couleur principale du site */
+   font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif; /* c'est la police d'écriture */
+   font-size:small; /* c'est la taille de la police */
+   margin:2em 1%; /* il permet de positionner les blocks les uns par rapport aux autres.*/
+   padding:0; /* il permet de positionner les blocks les uns par rapport aux autres. */
+}
+
+#page {
+   color:#000000; /* c'est la couleur de la page */
+   background-color:#ffffff; /* c'est la couleur de fond de la page */
+   border:3px solid #000000; /* c'est l'épaisseur, la texture, et la couleur de la bordure */
+   min-height:83em; /* c'est la taille en hauteur de la page */
+   height:55em; /* c'est la taille en hauteur de la page */
+}
+
+html>body #page {
+   height:auto; /* c'est la taille en hauteur de la page */
+}
+
+header {
+	margin:2em 3% 1% 3%; /* la margin est la marge du bandeau dans l'ordre, haut, droit, bas et gauche . Ce qui consiste à règler la position du bandeau */
+	padding:0.01em 0 0.05em 0; /* le padding sert a règler l'epaisseur du bandeau */
+	font-size:50%; /* le font-size correspond au grossisemment du bandeau (comme un zoom) */
+	background-color:#ffd000; /* c'est la couleur du bandeau */
+	border-radius:50px; /* c'est le degrès de l'arrondi du bandeau */
+}
+
+header h1 {
+	font-family:"Comic Sans MS",Arial,Helvetica,sans-serif; /* c'est la police d'écriture */
+	text-align:center; /* c'est le centrage du texte */
+	font-size: 500%;
+}
+
+header .logo {
+	/*float:left;*/ /* permet de mettre des blocks à l'horizontale */
+	margin-top:20px; /* ils permettent de positionner les blocks les uns par rapport aux autres par rapport au haut*/
+	margin-bottom:5px; /* ils permettent de positionner les blocks les uns par rapport aux autres par rapport au bas */
+	margin-left:15px; /* ils permettent de positionner les blocks les uns par rapport aux autres par rapport a la gauche */
+	margin-right:auto; /* ils permettent de positionner les blocks les uns par rapport aux autres par rapport a la droite */
+	display:block;	/*on montre la liste ul a l'écran */
+}
+
+nav {
+	left:5%; /* permet de positionner le block nav par rapport a la gauche */
+	position:absolute; /* la position définit la façon dont un élément est positionné dans un document */
+	width:15%; /* c'est l'épaisseur du block */
+	overflow:hidden; /* overflow définit comment gérer le dépassement du contenu d'un élément dans son bloc */
+	margin-left: 0.3em; /* ils permettent de positionner les blocks les uns par rapport aux autres par rapport a la gauche */
+	background-color: #DCDCDC; /* c'est la couleur de fond */
+	border: 1.5px solid #f09000; /* c'est l'épaisseur, la texture, et la couleur de la bordure */
+}
+
+h2 {
+	border-color:#f09000; /* c'est la couleur de la bordure */
+	border-style:solid; /* c'est la texture de la bordure */
+	border-width:0 0 3px 0; /* c'est l'épaisseur de la bordure */
+	font-size:medium; /* c'est la taille de la police d'écriture */ 
+	font-weight:700; /* c'est  la graisse utilisée pour le texte */ 
+	margin:0; /* il permet de positionner les blocks les uns par rapport aux autres. */
+	padding-left:0em; /* il permet de positionner les blocks les uns par rapport aux autres par rapport a la gauche */
+	text-transform:uppercase; /* c'est la façon d'utiliser les lettres capitales pour le texte d'un élément */
+}
+
+nav h2:first-letter {
+	color: #f09000; /* c'est la couleur de la premiere lettre */
+}
+
+nav a {
+	display:block; /* on montre la liste ul à l'écran */
+	text-decoration:none; /* sert a décorer le texte , avec une ligne ajoutée pouvant etre positionnée sous, sur ou à travers le texte */
+	color:black; /* c'est la couleur du texte */
+}
+
+nav ul a:hover {
+	background-color: #696969; /* c'est la couleur de fond du texte */
+	color: #f09000; /* c'est la couleur du texte */
+}
+
+nav h1 a {
+	color:#f09000; /* c'est la couleur du texte */
+}
+
+ul {
+	margin-bottom:1.5em; /* il permet de positionner les blocks les uns par rapport aux autres par rapport au bas*/
+	margin-top:0.5em; /* il permet de positionner les blocks les uns par rapport aux autres par rapport au haut */
+	line-height: 150%; /* c'est la taille en hauteur des entre-lignes */
+}
+
+li {
+	list-style:none; /* c'est la texture de la liste par rapport aux autres block */
+	line-height: 150%; /* c'est la taille en hauteur des entre-lignes */
+}
+
+article {
+	background-color:#DCDCDC; /* c'est la couleur de fond */
+	border:1.5px solid #f09000; /* c'est l'épaisseur, la texture, et la couleur de la bordure */
+	line-height:200%; /* c'est la taille en hauteur des entre-lignes */
+	margin:0 3% 2em 21%; /* il permet de positionner les blocks les uns par rapport aux autres. */
+	padding:0 2% 3em 2%; /* il permet de positionner les blocks les uns par rapport aux autres. */
+	color:#000000; /* c'est la couleur du texte */
+}
+
+marquee {
+	color:black;
+}
